@@ -17,6 +17,7 @@ import { getUrl } from "aws-amplify/storage";
 import { uploadData } from "aws-amplify/storage";
 import { generateClient } from "aws-amplify/data";
 import outputs from "../amplify_outputs.json";
+import HammerAndSickle from './assets/Hammer_and_sickle.svg.ico';
 /**
  * @type {import('aws-amplify/data').Client<import('../amplify/data/resource').Schema>}
  */
@@ -99,6 +100,7 @@ export default function App() {
           width="70%"
           margin="0 auto"
         >
+          <img src={HammerAndSickle} alt="Hammer and Sickle" style={{ width: '205px', height: '205px' }} />
           <Heading level={1}>ChatKGB</Heading>
           <View as="form" margin="3rem 0" onSubmit={createNote}>
             <Flex
