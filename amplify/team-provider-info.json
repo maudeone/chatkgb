@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatkgb-dev-d8917-authRole",
+      "UnauthRoleArn": "arn:aws:iam::568462790212:role/amplify-chatkgb-dev-d8917-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::568462790212:role/amplify-chatkgb-dev-d8917-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-chatkgb-dev-d8917-deployment",
+      "UnauthRoleName": "amplify-chatkgb-dev-d8917-unauthRole",
+      "StackName": "amplify-chatkgb-dev-d8917",
+      "StackId": "arn:aws:cloudformation:us-east-1:568462790212:stack/amplify-chatkgb-dev-d8917/a8fcdac0-71d9-11ef-8aaf-0e8cfaa9788f",
+      "AmplifyAppId": "d5mc43ej4qpdc"
+    },
+    "categories": {
+      "auth": {
+        "chatkgb5be83d00": {}
+      }
+    }
+  }
+}
